@@ -1,0 +1,70 @@
+/* START OPMAAK TABLET-------------------------------------------------- */
+@media (max-width: 1200px) {
+
+    .home h1 {
+      font-size: 45px;
+      font-weight: 700;
+      margin-top: 500px;
+    }
+  
+    .home p {
+      font-size: 25px;
+      font-weight: 700;
+    }
+  
+    .header .navbar a {
+      font-size: 20px;
+    }
+  
+    /*-- START OPMAAK HOME SECTION --*/
+    .slideshow li:nth-child(1) span {
+      background-position: 40% 0%;
+    }
+  
+    .slideshow li:nth-child(2) span {
+      background-position: center 0%;
+    }
+  
+    .slideshow li:nth-child(3) span {
+      background-position: center 0%;
+    }
+  
+    .slideshow li:nth-child(4) span {
+      background-position: center 0%;
+    }
+  
+    .slideshow li:nth-child(5) span {
+      background-position: 75% 0%;
+    }
+  
+    /*-- EINDE OPMAAK HOME SECTION  --*/
+  
+  
+    /* -START SECTION VIDEO-- */
+    #myVideo {
+      max-width: 810px;
+      min-height: 100%;
+    }
+  
+    /* -EINDE SECTION VIDEO-- */
+  
+  
+    /* -START OPAAK SECTION GALLERIJ-- */
+    .services {
+      height: 60vh;
+    }
+  
+    .card-c1 {
+      height: 100%;
+    }
+  
+  
+    .card-c1 img {
+      width: 100%;
+      min-height: 100%;
+    }
+  
+    /* -EINDE OPAAK SECTION GALLERIJ-- */
+  }
+  
+  /* EINDE OPMAAK TABLET-------------------------------------------------- */

@@ -219,5 +219,26 @@
       .slideshow li:nth-child(5) span {
         background-position: 85% 0%;
       }
-  }
+
+      .slideshow-gallery-china li:nth-child(1) span {
+         background-position: 30% 0%;
+          }
+      
+      .slideshow-gallery-china li:nth-child(2) span {
+          background-position: 50% 100%;
+       
+      }
+      
+      .slideshow-gallery-china li:nth-child(3) span {
+          background-position: 50% 55%; 
+      }
+      
+      .slideshow-gallery-china li:nth-child(4) span {
+          background-position: 40% 60%;
+      }
+      
+      .slideshow-gallery-china li:nth-child(5) span {
+        background-position: 50% 20%;
+      }
+ }
   

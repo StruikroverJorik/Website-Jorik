@@ -12,24 +12,23 @@
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <link rel="stylesheet" href="Gallery.css" />
-    <link rel="stylesheet" href="root-fonts.css" />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="css/Gallery.css" />
+    <link rel="stylesheet" href="css/root-fonts.css" />
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="lightbox.min.css" />
-    <link rel="stylesheet" href="../dist/css/lightbox.min.css">
-    <link rel="stylesheet" href="mobile.css" />
-    <link rel="stylesheet" href="tablet.css" />
+    <link rel="stylesheet" href="dist/css/lightbox.min.css">
+    <link rel="stylesheet" href="css/mobile.css" />
+    <link rel="stylesheet" href="css/tablet.css" />
     <link rel="stylesheet" href="intro-sliders.css" />
     <!--https://struikroverjorik.github.io/Website_Jorik/-->
-    <!-- https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp 
-    -->
+    <!-- https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp-->
     <!-- https://www.youtube.com/watch?v=C1B1Fx3XKOg -->
 </head>
 
 <body>
     <!------------------START HEADER GALLERY------------------>
     <header class="header">
-        <a href="#" class="logo">Website<span>│Jorik</span></a>
+        <a href="index.html" class="logo">Website<span>│Jorik</span></a>
         <a class="menu fas fa-bars"></a>
         <nav class="navbar">
             <a href="/index.html">home</a>
@@ -277,6 +276,24 @@
                     </div>
                      </div>        
             </div>
+
+            <ul>
+
+		<?php
+		// loop through the array of files and print them all in a list
+		for($index=0; $index < $indexCount; $index++) {
+			$extension = substr($dirArray[$index], -3);
+			if ($extension == 'jpg'){ // list only jpgs
+				echo '<li><img src="images/' . $dirArray[$index] . '" alt="Image" /><span>' . $dirArray[$index] . '</span>';
+			}	
+		}
+		?>
+
+	</ul>	
+
+
+
+
    
     <script src="javascript/index.js"></script>
       <script src="dist/js/lightbox-plus-jquery.min.js"></script>
