@@ -124,9 +124,6 @@ section {
 
 .countries-row {
   display: flex;
-  border: solid 2px rgb(0, 255, 170);
-  margin-left: -130px;
-  width: 122%;
 }
 
 .land-naam {
