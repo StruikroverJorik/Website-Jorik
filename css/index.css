@@ -118,7 +118,17 @@ section {
 
 /* CARD COMPONENT */
 
+.works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+}
+
+
 .container-countries {
+  border: solid 2px red;
   display: flex;
   flex-direction: column;
 }
