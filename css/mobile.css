@@ -53,22 +53,14 @@
 
 
     /* -START OPAAK SECTION GALLERIJ-- */
-    .services {
-      min-height: 300vh;
-      width: 100%;
+    .container-countries {
+      display: flex;
       flex-direction: column;
-      align-items: center;
     }
-
-    .card-c1 {
-      height: 25%;
-      width: 100%;
-    }
-
-
-    .card-c1 img {
-      width: 100%;
-      min-height: 100%;
+    
+    .countries-row {
+      display: flex;
+      flex-direction: column;
     }
 
     /* -EINDE OPAAK SECTION GALLERIJ-- */
