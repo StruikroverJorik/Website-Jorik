@@ -118,16 +118,11 @@ section {
 
 /* CARD COMPONENT */
 
-.works {
-  border: solid 2px black;
-}
-
 .countries-row {
   display: flex;
 }
 
 .land-naam {
-  border: solid 2px var(--black);
   height: 60px;
   display: flex;
   justify-content: center;
