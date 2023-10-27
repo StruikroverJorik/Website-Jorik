@@ -75,30 +75,30 @@
 }
 
 .slideshow li:nth-child(1) span {
-  background-image: url("/images/index-images/images-home-section/home-section-image1.jpg");
+  background-image: url("images/index-images/images-home-section/home-section-image1.jpg");
   background-position: 0% 0%;
 }
 
 .slideshow li:nth-child(2) span {
-  background-image: url("/images/index-images/images-home-section/home-section-image2.jpg");
+  background-image: url("images/index-images/images-home-section/home-section-image2.jpg");
   background-position: 0% 100%;
   animation-delay: 6s;
 }
 
 .slideshow li:nth-child(3) span {
-  background-image: url("/images/index-images/images-home-section/home-section-image3.jpg");
+  background-image: url("images/index-images/images-home-section/home-section-image3.jpg");
   background-position: 0% 55%;
   animation-delay: 12s;
 }
 
 .slideshow li:nth-child(4) span {
-  background-image: url("/images/index-images/images-home-section/home-section-image4.jpg");
+  background-image: url("images/index-images/images-home-section/home-section-image4.jpg");
   background-position: 0% 60%;
   animation-delay: 18s;
 }
 
 .slideshow li:nth-child(5) span {
-  background-image: url("/images/index-images/images-home-section/home-section-image5.jpg");
+  background-image: url("images/index-images/images-home-section/home-section-image5.jpg");
   background-position: 0% 20%;
   animation-delay: 24s;
 }
@@ -133,30 +133,30 @@
 }
 
 .slideshow-gallery-china li:nth-child(1) span {
-  background-image: url("/images/china-images/images-home-section/china1.jpg");
+  background-image: url("images/china-images/images-home-section/china1.jpg");
   background-position: 0% 0%;
 }
 
 .slideshow-gallery-china li:nth-child(2) span {
-  background-image: url("/images/china-images/images-home-section/china2.jpg");
+  background-image: url("images/china-images/images-home-section/china2.jpg");
   background-position: 0% 100%;
   animation-delay: 6s;
 }
 
 .slideshow-gallery-china li:nth-child(3) span {
-  background-image: url("/images/china-images/images-home-section/china3.jpg");
+  background-image: url("images/china-images/images-home-section/china3.jpg");
   background-position: 0% 55%;
   animation-delay: 12s;
 }
 
 .slideshow-gallery-china li:nth-child(4) span {
-  background-image: url("/images/china-images/images-home-section/china4.jpg");
+  background-image: url("images/china-images/images-home-section/china4.jpg");
   background-position: 0% 60%;
   animation-delay: 18s;
 }
 
 .slideshow-gallery-china li:nth-child(5) span {
-  background-image: url("/images/china-images/images-home-section/china5.jpg");
+  background-image: url("images/china-images/images-home-section/china5.jpg");
   background-position: 0% 20%;
   animation-delay: 24s;
 }
