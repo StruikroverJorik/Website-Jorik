@@ -92,7 +92,33 @@ section {
 
 /* --EINDE OPMAAK SECTION HEADER-- */
 
-/* -EINDE OPMAAK SECTION HOME-- */
+/*--START OPMAAK TEXT HOMEPAGE-- */
+.home {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  text-align: center;
+  background-color: var(--black);
+}
+
+.home h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: var(--white);
+  z-index: 1;
+}
+
+.home p {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--white);
+  z-index: 1;
+  margin-top: 10px;
+}
+/*--EINDE OPMAAK TEXT HOMEPAGE-- */
+
 
 /* -START OPMAAK SECTION VIDEO-- */
 .about {
@@ -109,15 +135,12 @@ section {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  background-color: black;
+  background-color: var(--white);
 }
-
 /* -EINDE SECTION VIDEO-- */
 
+
 /* -START OPAAK SECTION COUNTRIES-- */
-
-/* CARD COMPONENT */
-
 .countries-row {
   display: flex;
 }

@@ -1,10 +1,11 @@
 /* START OPMAAK TABLET-------------------------------------------------- */
 @media (max-width: 1200px) {
-
+  /*-- START OPMAAK HOME SECTION --*/
     .home h1 {
       font-size: 45px;
       font-weight: 700;
       margin-top: 500px;
+      color: red;
     }
   
     .home p {
@@ -16,27 +17,7 @@
       font-size: 20px;
     }
   
-    /*-- START OPMAAK HOME SECTION --*/
-    .slideshow li:nth-child(1) span {
-      background-position: 40% 0%;
-    }
-  
-    .slideshow li:nth-child(2) span {
-      background-position: center 0%;
-    }
-  
-    .slideshow li:nth-child(3) span {
-      background-position: center 0%;
-    }
-  
-    .slideshow li:nth-child(4) span {
-      background-position: center 0%;
-    }
-  
-    .slideshow li:nth-child(5) span {
-      background-position: 75% 0%;
-    }
-  
+     
     /*-- EINDE OPMAAK HOME SECTION  --*/
   
   
