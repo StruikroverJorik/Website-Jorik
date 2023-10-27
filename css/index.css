@@ -119,7 +119,6 @@ section {
 }
 /*--EINDE OPMAAK TEXT HOMEPAGE-- */
 
-
 /* -START OPMAAK SECTION VIDEO-- */
 .about {
   height: 100vh;
@@ -134,11 +133,9 @@ section {
   right: 0;
   bottom: 0;
   min-width: 100%;
-  min-height: 100%;
   background-color: var(--white);
 }
 /* -EINDE SECTION VIDEO-- */
-
 
 /* -START OPAAK SECTION COUNTRIES-- */
 .countries-row {
