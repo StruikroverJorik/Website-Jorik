@@ -319,3 +319,144 @@ section {
 }
 
 /* footer */
+
+/* START OPMAAK TABLET----------------------------- */
+@media (max-width: 1200px) {
+  /*--START OPMAAK HOME SECTION --*/
+  .home h1 {
+    font-size: 45px;
+    margin-top: 500px;
+  }
+
+  .home p {
+    font-size: 25px;
+  }
+
+  .header .navbar a {
+    font-size: 20px;
+  }
+  /*--EINDE OPMAAK TEXT HOMEPAGE-- */
+
+
+/* --START OPMAAK SECTION VIDEO-- */
+.about {
+  height: 50vh;
+}
+
+#myVideo {
+  max-width: 780px;
+}
+/* --EINDE SECTION VIDEO-- */
+
+
+/* --START OPAAK SECTION COUNTRIES-- */
+
+.land-naam {
+  height: 60px;
+}
+
+.box-container {
+  flex-direction: row;
+  width: 34%;
+}
+
+.box-item {
+  position: relative;
+}
+
+.flip-box {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
+
+.flip-box-front,
+.flip-box-back {
+    min-height: 300px;
+}
+
+/* --EIND OPAAK SECTION COUNTRIES-- */
+}
+
+
+
+/* START OPMAAK MOBIEL STAAND----------------- */
+@media (max-width: 800px) {
+  /*-- START OPMAAK HOME SECTION --*/
+  .home h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 500px;
+  }
+
+  .home p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 5px;
+    line-height: 30px;
+  }
+  /*-- EINDE OPMAAK HOME SECTION  --*/
+
+  /* -START SECTION VIDEO-- */
+  .about {
+    height: 30vh;
+  }
+
+  #myVideo,
+  #myVideo2 {
+    max-width: 300px;
+  }
+  /* -EINDE SECTION VIDEO-- */
+
+  /* -START OPAAK SECTION GALLERIJ-- */
+  .container-countries {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .countries-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-container {
+    flex-direction: row;
+    width: 100%;
+  }
+  /* -EINDE OPAAK SECTION GALLERIJ-- */
+}
+
+/* EINDE OPMAAK MOBIEL STAAND------------------------- */
+
+
+/* START OPMAAK MOBIEL LIGGEND------------------------ */
+@media (max-height: 400px) {
+  /*-- START OPMAAK HOME SECTION --*/
+  .home h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 250px;
+  }
+
+  /* -START SECTION VIDEO-- */
+  .about {
+    height: 100vh;
+  }
+
+  #myVideo {
+    max-width: 300px;
+  }
+
+  /* -EINDE SECTION VIDEO-- */
+
+  .container-countries {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .countries-row {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* EIND OPMAAK MOBIEL LIGGEND--------------------------------------------- */
