@@ -183,6 +183,27 @@
   .slideshow li:nth-child(5) span {
     background-position: 75% 0%;
   }
+
+  /*--START SLIDER CHINA-- */
+  .slideshow-gallery-china li:nth-child(1) span {
+    background-position: 70% 0%;
+  }
+
+  .slideshow-gallery-china li:nth-child(2) span {
+    background-position: center 100%;
+  }
+
+  .slideshow-gallery-china li:nth-child(3) span {
+    background-position: center 55%;
+  }
+
+  .slideshow-gallery-china li:nth-child(4) span {
+    background-position: center 60%;
+  }
+ 
+  .slideshow-gallery-china li:nth-child(5) span {
+    background-position: center 20%;
+  }
 }
 
 /* START OPMAAK MOBIEL STAAND------------------------------------------- */
