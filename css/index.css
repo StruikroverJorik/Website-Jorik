@@ -342,7 +342,6 @@ section {
 /* --START OPMAAK SECTION VIDEO-- */
 .about {
   min-height: 40vh;
-  border: solid 2px red;
 }
 
 #myVideo {
